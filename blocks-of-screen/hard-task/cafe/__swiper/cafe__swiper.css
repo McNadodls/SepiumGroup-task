@@ -1,0 +1,15 @@
+.cafe__swiper {
+    width: 479px;
+    height: 330px;
+    overflow: visible;
+    margin: 0;
+}
+
+@media screen and (min-width: 1570px) {
+    .cafe__swiper {
+        width: 646px;
+        height: 445px;
+        overflow: visible;
+        margin: 0;
+    }
+}

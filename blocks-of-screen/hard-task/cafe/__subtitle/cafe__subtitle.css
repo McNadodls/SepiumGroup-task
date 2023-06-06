@@ -1,0 +1,23 @@
+.cafe__subtitle {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    /* grey-text */
+
+    color: #787878;
+    width: 420px;
+    margin: 0;
+    margin-top: 40px;
+}
+
+@media screen and (min-width: 1570px) {
+    .cafe__subtitle {
+        width: 590px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+}

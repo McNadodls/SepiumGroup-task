@@ -1,0 +1,15 @@
+.menu__link {
+    display: inline-block;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: right;
+    text-decoration-line: underline;
+    /* lime-text */
+
+    color: #94C017;
+    margin-right: 52px;
+    width: max-content;
+}

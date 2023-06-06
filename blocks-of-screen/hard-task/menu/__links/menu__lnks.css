@@ -1,0 +1,21 @@
+.menu__links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    flex-wrap: nowrap;
+}
+
+.menu__links .menu__link::after {
+    content: "→";
+    position: absolute;
+    font-size: 14px;
+    padding-left: 19px;
+    line-height: 19px;
+  }
+
+.menu__links > li:last-of-type .menu__link {
+    margin: 0;
+}
+.menu__links > li:last-of-type .menu__link:after {
+    content: "";
+}

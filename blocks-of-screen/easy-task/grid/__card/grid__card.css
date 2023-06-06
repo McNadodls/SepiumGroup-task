@@ -1,0 +1,21 @@
+.grid__card {
+    width: 100%;
+    height: min-content;
+    height: 284px;
+      
+    padding: 7px 7px 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
+    border-radius: 20px;
+    box-sizing: border-box;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 1570px) {
+    .grid__card {
+        height: 350px;
+    }
+}

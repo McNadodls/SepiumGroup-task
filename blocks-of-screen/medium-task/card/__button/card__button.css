@@ -1,0 +1,38 @@
+.card__button {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+
+    /* white-main */
+
+    color: #787878;
+
+    width: 48%;
+    height: 59px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    border: none;
+    border-radius: 15px;
+}
+
+.card__button:last-of-type {
+    margin-right: 0;
+}
+
+.card__button::after {
+    content: "►";
+
+}
+
+@media screen and (min-width: 1570px) {
+    .card__button {
+        font-size: 18px;
+        line-height: 30px;
+        height: 70px;
+    }
+}

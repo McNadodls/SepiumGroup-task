@@ -1,0 +1,9 @@
+.swiper__buttons {
+    display: flex;
+    width: min-content;
+    height: min-content;
+    gap:19px;
+    align-self: flex-end;
+    margin-bottom: 5px;
+
+}

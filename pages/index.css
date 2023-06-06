@@ -1,0 +1,69 @@
+/* Шрифты */
+@import url(../fonts/Manrope/stylesheet.css);
+@import url(../fonts/PT-Sans-Caption/stylesheet.css);
+
+/* экраны */
+@import url(../blocks-of-screen/task/task.css);
+
+/* hard */
+@import url(../blocks-of-screen/task/_difficulty/task_difficulty_hard.css);
+    @import url(../blocks-of-screen/hard-task/menu/menu.css);
+    @import url(../blocks-of-screen/hard-task/menu/__links/menu__lnks.css);
+    @import url(../blocks-of-screen/hard-task/menu/__link/menu__link.css);
+    @import url(../blocks-of-screen/hard-task/menu/__link/_active/menu__link_active.css);
+
+    @import url(../blocks-of-screen/hard-task/cafe/cafe.css);
+    @import url(../blocks-of-screen/hard-task/cafe/__header/cafe__header.css);
+    @import url(../blocks-of-screen/hard-task/cafe/__title/cafe__title.css);
+    @import url(../blocks-of-screen/hard-task/cafe/__subtitle/cafe__subtitle.css);
+    @import url(../blocks-of-screen/hard-task/cafe/__image/cafe__image.css);
+    @import url(../blocks-of-screen/hard-task/cafe/__offer/cafe__offer.css);
+    @import url(../blocks-of-screen/hard-task/cafe/__button/cafe__button.css);
+    @import url(../blocks-of-screen/hard-task/cafe/__signature/cafe__signature.css);
+
+/* medium */
+@import url(../blocks-of-screen/task/_difficulty/task_difficulty_medium.css);
+    
+    @import url(../blocks-of-screen/medium-task/market/market.css);
+    @import url(../blocks-of-screen/medium-task/market/__header/market__header.css);
+    @import url(../blocks-of-screen/medium-task/market/__subtitle/market__subtitle.css);
+    @import url(../blocks-of-screen/medium-task/market/__title/market__title.css);
+
+
+    @import url(../blocks-of-screen/medium-task/card/card.css);
+    @import url(../blocks-of-screen/medium-task/card/__image/card__image.css);
+    @import url(../blocks-of-screen/medium-task/card/__info/card__info.css);
+    @import url(../blocks-of-screen/medium-task/card/__title/card__title.css);
+    @import url(../blocks-of-screen/medium-task/card/__location/card__location.css);
+    @import url(../blocks-of-screen/medium-task/card/__container/card__container.css);
+    @import url(../blocks-of-screen/medium-task/card/__button/card__button.css);
+    @import url(../blocks-of-screen/medium-task/card/__button/_color/card__button_color_grean.css);
+
+/* easy */
+@import url(../blocks-of-screen/task/_difficulty/task_difficulty_easy.css);
+
+    @import url(../blocks-of-screen/easy-task/category/category.css);
+    @import url(../blocks-of-screen/easy-task/category/__header/category__header.css);
+    @import url(../blocks-of-screen/easy-task/category/__title/category__title.css);
+    @import url(../blocks-of-screen/easy-task/category/__subtitle/category__subtitle.css);
+
+    @import url(../blocks-of-screen/easy-task/grid/grid.css);
+    @import url(../blocks-of-screen/easy-task/grid/__card/grid__card.css);
+    @import url(../blocks-of-screen/easy-task/grid/__image/grid__image.css);
+    @import url(../blocks-of-screen/easy-task/grid/__container/gird__container.css);
+    @import url(../blocks-of-screen/easy-task/grid/__title/grid__title.css);
+    @import url(../blocks-of-screen/easy-task/grid/__signature/grid__signature.css);
+
+/* слайдер */
+@import url(../blocks-of-screen/swiper/swiper.css);
+@import url(../blocks-of-screen/swiper/__buttons/swiper__buttons.css);
+@import url(../blocks-of-screen//swiper/__button/swiper__button.css);
+
+@import url(../blocks-of-screen/hard-task/cafe/__swiper/cafe__swiper.css);
+@import url(../blocks-of-screen/hard-task/cafe/__wrapper/cafe__wrapper.css);
+@import url(../blocks-of-screen/hard-task/cafe/__slide/cafe__slide.css);
+
+@import url(../blocks-of-screen/medium-task/market/__swiper/market__swiper.css);
+@import url(../blocks-of-screen/medium-task/market/__wrapper/market__wrapper.css);
+@import url(../blocks-of-screen/medium-task/market/__slide/market__slide.css);
+@import url(../blocks-of-screen/medium-task/market/__buttons/market__buttons.css);

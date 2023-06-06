@@ -1,0 +1,25 @@
+.market__title {
+    margin:0;
+    padding:0;
+    
+    font-family: 'PT Sans Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 64px;
+    /* or 110% */
+    
+    letter-spacing: -0.03em;
+    
+    /* black-main */
+    
+    color: #181818;
+  }
+
+@media screen and (min-width: 1570px) {
+    .market__title {
+      font-size: 72px;
+      line-height: 70px;
+
+    }
+}

@@ -1,0 +1,25 @@
+.market__subtitle{
+    width: 261px;
+    margin:0;
+    padding:0;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    /* grey-text */
+    
+    color: #787878;
+}
+
+@media screen and (min-width: 1570px) {
+    .market__subtitle {
+        width: 300px;
+        font-size: 18px;
+        line-height: 27px;
+
+    }
+}

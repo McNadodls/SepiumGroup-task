@@ -1,0 +1,24 @@
+.cafe__title {
+    font-family: 'PT Sans Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 74px;
+    /* identical to box height, or 103% */
+
+    letter-spacing: -0.03em;
+
+    /* black-main */
+
+    color: #181818;
+
+    margin: 0;
+    width: 100%;
+}
+
+@media screen and (min-width: 1570px) {
+    .cafe__title {
+        font-size: 86px;
+        line-height: 90px;
+    }
+}

@@ -1,0 +1,8 @@
+.grid{
+    width:100%;
+    height: max-content;
+    display: grid;
+    grid-template-columns: repeat(4,minmax(min-content, 24.15%));
+    gap: 15px;
+    margin: 0 auto;
+}

@@ -1,0 +1,37 @@
+.cafe__button {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+
+    /* white-main */
+
+    color: #FFFFFF;
+
+    width: 192px;
+    height: 59px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+    gap: 30px;
+    background: #9CC91C;
+    border: none;
+    border-radius: 15px;
+}
+
+.cafe__button::after {
+    content: "►";
+
+}
+
+@media screen and (min-width: 1570px) {
+    .cafe__button {
+        font-size: 18px;
+        line-height: 30px;
+        width: 240px;
+        height: 70px;
+    }
+}

@@ -1,0 +1,23 @@
+.cafe__wrapper {
+    
+}
+
+.cafe__wrapper > .swiper-slide-active > .cafe__image {
+    width: 479px;
+    height: 330px;
+}
+
+.cafe__wrapper > .swiper-slide-prev {
+    left: -30px;
+}
+
+@media screen and (min-width: 1570px) {
+    .cafe__wrapper > .swiper-slide-active > .cafe__image {
+        width: 646px;
+        height: 445px;
+    }
+    
+    .cafe__wrapper > .swiper-slide-prev {
+        left: -30px;
+    }
+}

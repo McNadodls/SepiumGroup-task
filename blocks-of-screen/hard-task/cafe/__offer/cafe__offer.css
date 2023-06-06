@@ -1,0 +1,6 @@
+.cafe__offer {
+    display: flex;
+    align-items: center;
+    gap:43px;
+    align-self: flex-end;
+}

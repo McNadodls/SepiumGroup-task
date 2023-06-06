@@ -1,0 +1,7 @@
+.card__info {
+    margin: 20px 10px 25px;
+    display: flex;
+    flex-wrap: wrap;
+    height: max-content;
+    box-sizing: border-box;
+}

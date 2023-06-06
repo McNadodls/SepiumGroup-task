@@ -1,0 +1,23 @@
+.category__title{
+    font-family: 'PT Sans Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 64px;
+    /* identical to box height, or 110% */
+    
+    letter-spacing: -0.03em;
+    
+    /* black-main */
+    
+    color: #181818;
+    padding:0;
+    margin:0;
+}
+
+@media screen and (min-width: 1570px) {
+    .category__title {
+        font-size: 72px;
+        line-height: 74px;
+    }
+}

@@ -1,0 +1,7 @@
+.task_difficulty_hard {
+    background: #F5F5F4;
+    border-radius: 20px;
+    margin: 15px; 
+    padding: 40px;
+    overflow: hidden;
+}

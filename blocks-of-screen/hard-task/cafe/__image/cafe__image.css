@@ -1,0 +1,12 @@
+.cafe__image {
+    width: 332px;
+    height: 222px;
+    transition: all .3s;
+}
+
+@media screen and (min-width: 1570px) {
+    .cafe__image {
+        width: 448px;
+        height: 300px;
+    }
+}

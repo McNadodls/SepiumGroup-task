@@ -1,0 +1,22 @@
+.swiper__button {
+    width: 39px;
+    height: 39px;
+    background: #FFFFFF;
+    /* grey-light-bg */
+
+    border: 9px solid #F5F5F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+@media screen and (min-width: 1570px) {
+    .swiper__button {
+        width: 50px;
+        height: 50px;
+    }
+}

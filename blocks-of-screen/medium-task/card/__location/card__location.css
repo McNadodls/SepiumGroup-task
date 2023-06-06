@@ -1,0 +1,22 @@
+.card__location {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+
+    /* grey-text */
+
+    color: #787878;
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+@media screen and (min-width: 1570px) {
+    .card__location {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

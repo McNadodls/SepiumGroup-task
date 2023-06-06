@@ -1,0 +1,4 @@
+.cafe__slide {
+    transition: all .3s;
+    width:min-content;
+}
